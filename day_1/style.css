@@ -1,13 +1,20 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
     margin: 0px;
+    font-size: 1.5vw;
 }
 
 #logo {
-
     margin: 0px;
     padding: 8px;
-    font-family: "Fredoka One";
+    font-family: "Fredoka One", sans-serif;
+    box-shadow: 8px 8px 10px 3px darkorange;
+    width: 16%;
+    text-shadow: 
+    1px 1px 0px black,
+    -1px 1px 0px black,
+    1px -1px 0px black,
+    -1px -1px 0px black;
 }
 
 ul {
