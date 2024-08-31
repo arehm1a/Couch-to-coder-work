@@ -1,0 +1,22 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    margin: 0px;
+    padding: 8px;
+}
+
+ul {
+    margin: 0px;
+}
+
+body > header {
+    background-color: orange;
+}
+
+body > footer {
+    background-color: orange;
+}
+
