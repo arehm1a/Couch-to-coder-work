@@ -3,9 +3,11 @@ body {
     margin: 0px;
 }
 
-h1 {
+#logo {
+
     margin: 0px;
     padding: 8px;
+    font-family: "Fredoka One";
 }
 
 ul {
@@ -14,9 +16,37 @@ ul {
 
 body > header {
     background-color: orange;
+    color: white;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+}
+
+body > main > article {
+    width: 70%;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
 }
 
 body > footer {
     background-color: orange;
 }
 
+img {
+    border-radius: 50%;
+}
